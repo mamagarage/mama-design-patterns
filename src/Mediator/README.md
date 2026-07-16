@@ -1,5 +1,6 @@
 ﻿# Mediator Design Pattern
 ```mermaid
+%%{init: {"flowchart": {"diagramPadding": 150}}}%%
 flowchart LR
     A[ChatUser Alice]
     B[ChatUser Bob]
