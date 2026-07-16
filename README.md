@@ -33,3 +33,14 @@ graph TD;
     B-->D;
     C-->D;
 ```
+```mermaid
+flowchart TD
+    docx[Word File]
+    docx --> forge
+    forge[["`**xBRL-Forge**
+    convert to JSON Structure`"]]
+    forge --> json1
+    json1[("**Document Contents in 
+    Target JSON strucutre**
+    edit (tag) with any Tool and feed back into xBRL-Forge to create xBRL Package")]
+```
