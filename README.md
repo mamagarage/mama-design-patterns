@@ -10,7 +10,9 @@
   </tr>
   <tr>
     <td align="center">
-        <img alt="" width="400" src="https://github.com/mamagarage/mama-design-patterns/blob/main/img/mediator.jpeg" alt=""></img>
+        <a href="https://github.com/mamagarage/mama-design-patterns/tree/main/src/Mediator" 
+          <img alt="" width="400" src="https://github.com/mamagarage/mama-design-patterns/blob/main/img/mediator.jpeg" alt=""></img>
+        </a>
     </td>
     <td align="center">
         <!--
