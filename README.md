@@ -7,7 +7,6 @@
 | left baz      | right baz     |
 
 <table>
-  
   <tr>
     <th align="center">Mediator</th>
     <th align="center">Observer</th>
@@ -24,7 +23,8 @@
         -->
     </td>
   </tr>
-  </table>
+</table>
+
 ## Mermaid diagrams
 ```mermaid
 graph TD;
