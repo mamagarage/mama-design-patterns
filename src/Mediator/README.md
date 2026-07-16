@@ -1,5 +1,11 @@
 ﻿# Mediator Design Pattern
 ```mermaid
+---
+config:
+  showSequenceNumbers: true
+  theme: neutral
+---
+
 %%{init: {"flowchart": {"diagramPadding": 150}}}%%
 flowchart LR
     A[ChatUser Alice]
@@ -18,25 +24,4 @@ flowchart LR
     C -->|SendMessage| M
     M -->|ReceiveMessage| A
     M -->|ReceiveMessage| B
-```
-```mermaid
- classDiagram
-    class ChatMediator {
-        +RegisterUser()
-        +SendMessage()
-    }
-
-    class ChatUser {
-        +Name
-        +SendMessage()
-        +ReceiveMessage()
-    }
-
-    class IUser {
-        <<interface>>
-    }
-
-    ChatUser ..|> IUser
-    ChatUser --> ChatMediator
-    ChatMediator --> IUser
 ```
