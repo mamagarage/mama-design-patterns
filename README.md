@@ -1,5 +1,11 @@
 # Around Design Patterns
 
+| Mediator  | Observer |
+| :-----------: |:-------------:|
+| left foo      | right foo     |
+| left bar      | right bar     |
+| left baz      | right baz     |
+
 <table>
   
   <tr>
@@ -19,3 +25,11 @@
     </td>
   </tr>
   </table>
+## Mermaid diagrams
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
