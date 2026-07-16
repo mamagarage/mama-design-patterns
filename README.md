@@ -4,9 +4,7 @@
   
   <tr>
     <th align="center">Mediator</th>
-    <!--
-    <th align="center">For organization accounts</th>
-    -->
+    <th align="center">Observer</th>
   </tr>
   <tr>
     <td align="center">
