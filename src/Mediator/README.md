@@ -1,9 +1,23 @@
 ﻿# Mediator Design Pattern
+```mermaid
+flowchart LR
+    A[ChatUser Alice]
+    B[ChatUser Bob]
+    C[ChatUser Charlie]
+    M[ChatMediator]
 
- <a href="https://github.com/mamagarage/mama-design-patterns/tree/main/src/Mediator"> 
-    <img alt="" width="400" src="https://github.com/mamagarage/mama-design-patterns/blob/main/img/mediator.jpeg?raw=true" alt=""/>
- </a>
+    A -->|SendMessage| M
+    M -->|ReceiveMessage| B
+    M -->|ReceiveMessage| C
 
+    B -->|SendMessage| M
+    M -->|ReceiveMessage| A
+    M -->|ReceiveMessage| C
+
+    C -->|SendMessage| M
+    M -->|ReceiveMessage| A
+    M -->|ReceiveMessage| B
+```
 ```mermaid
  classDiagram
     class ChatMediator {
