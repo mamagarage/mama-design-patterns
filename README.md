@@ -9,10 +9,10 @@
   -->
   <tr>
     <td align="center">
-        <img alt="" width="400" src="https://github.com/mamagarage/mama-design-patterns/blob/main/img/mediator.jpeg" alt=""></img>
+        <img alt="" width="200" src="https://github.com/mamagarage/mama-design-patterns/blob/main/img/mediator.jpeg" alt=""></img>
     </td>
     <td align="center">
-        <img alt="" width="400" src="https://github.com/mamagarage/mama-design-patterns/blob/main/img/mediator.jpeg" alt=""></img>
+        <img alt="" width="200" src="https://github.com/mamagarage/mama-design-patterns/blob/main/img/mediator.jpeg" alt=""></img>
     </td>
   </tr>
   </table>
