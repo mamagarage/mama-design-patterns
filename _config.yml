@@ -1,0 +1,13 @@
+theme: jekyll-theme-tactile
+
+title: xBRL-Forge
+
+description: Around Design Patterns
+
+github:
+  public: true
+  is_project_page: true
+  repository_url: https://github.com/mamagarage/mama-design-patterns
+  owner_url: https://github.com/mamagarage
+
+mermaid: true
