@@ -11,7 +11,7 @@ config:
   theme: neutral
 ---
 
-%%{init: {"flowchart": {"diagramPadding": 150}}}%%
+%%{init: {"flowchart": {"diagramPadding": 100}}}%%
 flowchart LR
     A[ChatUser Alice]
     B[ChatUser Bob]
